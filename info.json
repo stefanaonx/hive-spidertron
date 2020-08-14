@@ -1,0 +1,9 @@
+{
+  "name": "hive-spidertron",
+  "version": "0.1.0",
+  "title": "hive-spidertron",
+  "author": "DAWG",
+  "factorio_version": "1.00",
+  "dependencies": ["base >= 1.00"],
+  "description": "Bigger spidertron grid."
+}
