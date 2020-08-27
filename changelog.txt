@@ -1,0 +1,11 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2020.08.14
+  Changes:
+    - Initial Release? I think. Had several issues when trying to make the first mod.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2020.08.27
+  Changes:
+    - Added compatibility with Cannon spidertron.
+    - Added changelog.
