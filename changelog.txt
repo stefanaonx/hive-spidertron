@@ -9,3 +9,8 @@ Date: 2020.08.27
   Changes:
     - Added compatibility with Cannon spidertron.
     - Added changelog.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 2020.08.31
+  Changes:
+    - Added compatibility for Broodmother, change-able via mod settings now.
