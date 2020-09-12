@@ -14,3 +14,14 @@ Version: 1.0.5
 Date: 2020.08.31
   Changes:
     - Added compatibility for Broodmother, change-able via mod settings now.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 2020.09.12
+  Changes:
+    - Modified the code so that there is no changing in the equipment types used in the grid, this way other mods can set their own equipment and this mod should not affect others, that means bobs vehicle equipment should work now.
+    - Also added a bit of compatibility with bob vehicle equipment.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+Date: 2020.09.12
+  Changes:
+    - Fixed broodmother compatibility because of changes on the latest version.

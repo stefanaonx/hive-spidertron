@@ -1,16 +1,7 @@
-data:extend({
-    {
-        type = "equipment-grid",
-        name = "hive-spider-equipment-grid",
-        width = settings.startup["hive-spider-grid-width"].value,--default 36,
-        height = settings.startup["hive-spider-grid-height"].value,--default 10,
-        equipment_categories = {"armor"}
-    }
-})
+local spider_grid_width = settings.startup["hive-spider-grid-width"].value--default 36,
+local spider_grid_height = settings.startup["hive-spider-grid-height"].value--default 10,
 
-data.raw["spider-vehicle"]["spidertron"].equipment_grid = "hive-spider-equipment-grid"
+data.raw["equipment-grid"]["spidertron-equipment-grid"].width = spider_grid_width
+data.raw["equipment-grid"]["spidertron-equipment-grid"].height = spider_grid_height
 
---i think i can make this better so it affect other mods
--- data.raw["equipment-grid"]["spidertron-equipment-grid"].width = settings.startup["hive-spider-grid-width"].value,--default 36,
--- data.raw["equipment-grid"]["spidertron-equipment-grid"].height = settings.startup["hive-spider-grid-height"].value,--default 10,
---but if i do this then i can't set my own settings for other mods // decisions ...
+-- this way it also helps with other mods that adds equipment
