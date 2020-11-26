@@ -25,3 +25,8 @@ Version: 1.0.7
 Date: 2020.09.12
   Changes:
     - Fixed broodmother compatibility because of changes on the latest version.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.8
+Date: 2020.11.26
+  Changes:
+    - Modified to use the new version of factorio 1.1.
